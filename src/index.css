@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --leather-brown: #8B5E3C;
+  --light-gold: #D4AF37;
+  --cream-beige: #F5E6CA;
+  --dark-gray: #3C3C3C;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: var(--cream-beige);
+  color: var(--dark-gray);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Moroccan Pattern Background */
+.moroccan-pattern {
+  background-image: 
+    repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(139, 94, 60, 0.03) 10px, rgba(139, 94, 60, 0.03) 20px),
+    repeating-linear-gradient(-45deg, transparent, transparent 10px, rgba(139, 94, 60, 0.03) 10px, rgba(139, 94, 60, 0.03) 20px);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.animate-slideUp {
+  animation: slideUp 0.8s ease-out;
+}
+
+/* Card Hover Effects */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(139, 94, 60, 0.2);
+}
+
+/* Image Zoom Effect */
+.image-zoom {
+  transition: transform 0.5s ease;
+}
+
+.image-zoom:hover {
+  transform: scale(1.05);
+}
+
+/* Button Styles */
+.btn-primary {
+  background: linear-gradient(135deg, var(--light-gold), #B8941F);
+  color: white;
+  padding: 12px 32px;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #B8941F, var(--light-gold));
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
+}
+
+.btn-secondary {
+  background-color: var(--leather-brown);
+  color: white;
+  padding: 12px 32px;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-secondary:hover {
+  background-color: #6B4629;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(139, 94, 60, 0.4);
+}
+
+/* RTL/LTR Support */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="ltr"] {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Map Grayscale Filter */
+.map-grayscale {
+  filter: grayscale(20%);
+  transition: filter 0.3s ease;
+}
+
+.map-grayscale:hover {
+  filter: grayscale(0%);
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
