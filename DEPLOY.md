@@ -6,7 +6,7 @@
 
 1. اذهب إلى [GitHub](https://github.com)
 2. اضغط على "New repository"
-3. اختر اسم المستودع (مثلاً: `eskify-al-bahja`)
+3. اختر اسم المستودع (مثلاً: `eskafy-al-bahja`)
 4. اختر Public أو Private
 5. **لا** تضع علامة على "Initialize with README"
 6. اضغط "Create repository"

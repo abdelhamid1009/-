@@ -4,7 +4,7 @@
 
 🌐 **Live Demo**: [رابط الموقع المباشر](https://your-site.vercel.app)
 
-📦 **Repository**: [GitHub](https://github.com/YOUR_USERNAME/eskify-al-bahja)
+📦 **Repository**: [GitHub](https://github.com/YOUR_USERNAME/eskafy-al-bahja)
 
 ## 🛠️ التقنيات المستخدمة
 

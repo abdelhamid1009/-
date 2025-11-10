@@ -13,7 +13,7 @@ git commit -m "Initial commit: اسكافي البهجة website"
 ### 2. إنشاء مستودع على GitHub
 
 1. اذهب إلى https://github.com/new
-2. اختر اسم المستودع (مثلاً: `eskify-al-bahja`)
+2. اختر اسم المستودع (مثلاً: `eskafy-al-bahja`)
 3. اختر Public أو Private
 4. **لا** تضع علامة على "Initialize with README"
 5. اضغط "Create repository"

@@ -8,7 +8,7 @@
 2. اضغط على زر **"+"** في أعلى اليمين
 3. اختر **"New repository"**
 4. املأ المعلومات:
-   - **Repository name**: `eskify-al-bahja` (أو أي اسم تريده)
+   - **Repository name**: `eskafy-al-bahja` (أو أي اسم تريده)
    - **Description**: "موقع ويب احترافي لمتجر اسكافي البهجة - متجر إسكافي تقليدي في المغرب"
    - اختر **Public** أو **Private**
    - **⚠️ مهم**: لا تضع علامة على "Initialize with README"
@@ -40,13 +40,13 @@ git push -u origin main
 
 ### 3️⃣ مثال كامل:
 
-إذا كان اسم المستخدم `ahmed` واسم المستودع `eskify-al-bahja`:
+إذا كان اسم المستخدم `ahmed` واسم المستودع `eskafy-al-bahja`:
 
 ```bash
 git init
 git add .
 git commit -m "Initial commit: اسكافي البهجة website"
-git remote add origin https://github.com/ahmed/eskify-al-bahja.git
+git remote add origin https://github.com/ahmed/eskafy-al-bahja.git
 git branch -M main
 git push -u origin main
 ```

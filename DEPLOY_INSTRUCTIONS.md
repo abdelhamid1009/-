@@ -5,7 +5,7 @@
 ### الخطوة 1: إنشاء مستودع على GitHub
 
 1. اذهب إلى: https://github.com/new
-2. اسم المستودع: `eskify-al-bahja`
+2. اسم المستودع: `eskafy-al-bahja`
 3. اختر Public
 4. **لا** تضع علامة على "Initialize with README"
 5. اضغط "Create repository"
@@ -18,7 +18,7 @@
 git init
 git add .
 git commit -m "Initial commit: اسكافي البهجة website"
-git remote add origin https://github.com/YOUR_USERNAME/eskify-al-bahja.git
+git remote add origin https://github.com/YOUR_USERNAME/eskafy-al-bahja.git
 git branch -M main
 git push -u origin main
 ```
